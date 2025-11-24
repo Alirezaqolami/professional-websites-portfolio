@@ -1,0 +1,35 @@
+{ 
+    "plugin_name": "Auto Review & Q&A for WooCommerce", 
+    "version": "3.2", 
+    "developer": "Alireza Gholamipour", 
+    "website": "mecato.ir", 
+    "description": "Automatisches Frage-Antwort-System für WooCommerce Produkte", 
+    "features": [ 
+        "automatic_review_generation", 
+        "question_answer_system", 
+        "random_rating_3.5_to_5", 
+        "iranian_ip_addresses", 
+        "admin_only_visibility", 
+        "cookie_based_prevention" 
+    ], 
+    "technical_specs": { 
+        "wordpress_hook": "template_redirect", 
+        "comment_type": "review", 
+        "qa_pairs_count": 35, 
+        "rating_range": "3.5-5", 
+        "ip_blocks": ["5.114.", "5.115.", "31.7.", "37.32.", "46.32."] 
+    }, 
+    "usage_instructions": { 
+        "1": "Plugin in WordPress aktivieren", 
+        "2": "Nur auf Produktseiten aktiv", 
+        "3": "Nur für Administrator-Benutzer sichtbar", 
+        "4": "Automatische Generierung bei Seitenaufruf", 
+        "5": "Cookie-basierte Wiederholungssperre (24h)" 
+    }, 
+    "example_output": { 
+        "rating": "⭐️⭐️⭐️⭐️⭐️ (4.5/5)", 
+        "user": "علی محمدی", 
+        "question": "Liefern Sie auch in andere Städte?", 
+        "answer": "Die meisten Verkäufer liefern landesweit." 
+    } 
+} 
